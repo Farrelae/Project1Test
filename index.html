@@ -14,14 +14,37 @@
 </head>
 
 <body>
-<!-------------------------------------- NAV BAR------------------------------------------>
-   <header class="Main-NAV">
+<!-------------------------------------- HAMBURGER MENU ------------------------------------------>
+<section class="nav-bar-right">
+    <nav class="controls">
+        <img id="menu-hamburger" class="menu-control"
+            src="https://ga-instruction.s3.amazonaws.com/assets/front-end-web-development/fewd-animations-lesson-images/img/hamburger.svg"
+            alt="Hamburger" role="navigation">
+    </nav>
+    <aside class="menu">
+        <div class="Hr-Lines">
+            <a href="#">Protein</a>
+            <hr>
+            <a href="#">Grains</a>
+            </hr>
+            <hr>
+            <a href="#">Frutis and Veggies</a>
+            </hr>
+            <hr>
+            <a href="#">Dairy</a>
+            </hr>
+            <hr>
+            <a href="#" id="menu-close">X</a>
+            </hr>
+        </div>
+    </aside>
+
+</section>
+
+<!--------------------------------------- NAV BAR -------------------------------------------->
+<header class="Main-NAV">
         <Section class="Title">
             <h1 class="NAV-Bar-Title">Nutrtion</h1>
-            <!-- <a class="#">NAV Obj 1</a>
-            <a class="#">NAV Obj 2</a>
-            <a class="#">NAV Obj 3</a>
-            <a class="#">NAV Obj 4</a> -->
         </Section>
 
    </header>
@@ -31,68 +54,93 @@
 <!--------------------------------------- Make a grid ------------------------------------>
 <div class="Nutrition-Grid">
     <!-----------------------------------------BOX 1------------------------------------->
-    <section class="Nutrtion-Grid-Item">
+    <section class="Top-of-page">
         <div class="BOX1">
-            <h1 class="Box-Title">Box 1 Example</h1>
-            <ul class="List-Info">
-                <li class="Facts">Test</li>
-                <li class="Facts">Test</li>
-                <li class="Facts">Test</li>
-                <li class="Facts">Test</li>
-                <li class="Facts">Test</li>
-            </ul>
+            <div class="BOX1-Nested">
+                <h1 class="Top-of-page-title">Calorie Tracker</h1>
+                    <!-- <ul class="List-Info">
+                        <li class="Facts">Test</li>
+                        <li class="Facts">Test</li>
+                        <li class="Facts">Test</li>
+                        <li class="Facts">Test</li>
+                        <li class="Facts">Test</li>
+                    </ul> -->
+            </div>
         </div>
-    </section>
+   
     <!----------------------------------------Box 2------------------------------------------->
-    <section class="Nutrtion-Grid-Item">
+   
         <div class="BOX2">
-            <h1 class="Box-Title">Box 2 Example</h1>
-            <ul class="List-Info">
-                <li class="Facts">Test</li>
-                <li class="Facts">Test</li>
-                <li class="Facts">Test</li>
-                <li class="Facts">Test</li>
-                <li class="Facts">Test</li>
-            </ul>
+            <div class="BOX2-Nested">
+                <h1 class="Top-of-page-title">Carousel</h1>
+                    <!-- <ul class="List-Info">
+                        <li class="Facts">Test</li>
+                        <li class="Facts">Test</li>
+                        <li class="Facts">Test</li>
+                        <li class="Facts">Test</li>
+                        <li class="Facts">Test</li>
+                    </ul> -->
+            </div>
         </div>
     </section>
-    <!-----------------------------------------BOX 3  ------------------------------------------->
-<section class="Nutrtion-Grid-Item">
-    <div class="BOX3">
-        <h1 class="Box-Title">Box 3 Example</h1>
-        <ul class="List-Info">
-            <li class="Facts">Test</li>
-            <li class="Facts">Test</li>
-            <li class="Facts">Test</li>
-            <li class="Facts">Test</li>
-            <li class="Facts">Test</li>
-        </ul>
-    </div>
-</section>
-<!---------------------------------------------Box 4  ------------------------------------------->
+    <!----------------------------------------Box 3------------------------------------------->
+    <section class="Nutrtion-Grid-Item">
+        <div class="BOX3">
+            <div class="BOX3-Nested">
+                <h1 class="Protein-Title">Proteins</h1>
+                    <ul class="List-Info">
+                    <li class="Facts">Test</li>
+                    <li class="Facts">Test</li>
+                    <li class="Facts">Test</li>
+                    <li class="Facts">Test</li>
+                    <li class="Facts">Test</li>
+                </ul>
+            </div> 
+        </div>
+    </section>
+    <!-----------------------------------------BOX 4  ------------------------------------------->
 <section class="Nutrtion-Grid-Item">
     <div class="BOX4">
-        <h1 class="Box-Title">Box 4 Example</h1>
-        <ul class="List-Info">
-            <li class="Facts">Test</li>
-            <li class="Facts">Test</li>
-            <li class="Facts">Test</li>
-            <li class="Facts">Test</li>
-            <li class="Facts">Test</li>
-        </ul>
+        <div class="BOX4-Nested">
+            <h1 class="Grains-Title">Grains</h1>
+                <ul class="List-Info">
+                    <li class="Facts">Test</li>
+                    <li class="Facts">Test</li>
+                    <li class="Facts">Test</li>
+                    <li class="Facts">Test</li>
+                    <li class="Facts">Test</li>
+                </ul>
+        </div>
     </div>
 </section>
-<!-------------------------------------------Box 5  ----------------------------------------------->
+<!---------------------------------------------Box 5  ------------------------------------------->
 <section class="Nutrtion-Grid-Item">
     <div class="BOX5">
-        <h1 class="Box-Title">Box 5 Example</h1>
-        <ul class="List-Info">
-            <li class="Facts">Test</li>
-            <li class="Facts">Test</li>
-            <li class="Facts">Test</li>
-            <li class="Facts">Test</li>
-            <li class="Facts">Test</li>
-        </ul>
+        <div class="BOX5-Nested">
+            <h1 class="Fruits-Title">Fruits and Veggies</h1>
+                <ul class="List-Info">
+                    <li class="Facts">Test</li>
+                    <li class="Facts">Test</li>
+                    <li class="Facts">Test</li>
+                    <li class="Facts">Test</li>
+                    <li class="Facts">Test</li>
+                </ul>
+        </div>
+    </div>
+</section>
+<!-------------------------------------------Box 6  ----------------------------------------------->
+<section class="Nutrtion-Grid-Item">
+    <div class="BOX6">
+        <div class="BOX6-Nested">
+            <h1 class="Dairy-Title">Dairy</h1>
+                <ul class="List-Info">
+                    <li class="Facts">Test</li>
+                    <li class="Facts">Test</li>
+                    <li class="Facts">Test</li>
+                    <li class="Facts">Test</li>
+                    <li class="Facts">Test</li>
+                </ul>
+        </div>
     </div>
 </section>
 

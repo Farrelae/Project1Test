@@ -1,3 +1,53 @@
+/* ---------------Hamburger Menu ----------------------- */
+.Hr-Lines {
+  width: 100%;
+}
+.controls {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.menu-control {
+  fill: blue;
+  margin: 25px;
+}
+.menu {
+  background-color: whitesmoke;
+  bottom: 0;
+  left: 0;
+  /*   right: 0; */
+  top: 0;
+  /*   opacity: 0;  */
+  display: none;
+  /*   overflow-y: scroll; */
+  padding: 15px 30px;
+  position: fixed;
+  transition: all 0.35s ease-in-out;
+  transform: translateX(100%);
+  /*   z-index: 10; */
+}
+.menu a,
+.menu a:focus,
+.menu a:visited {
+  color: black;
+  display: block;
+  font-size: 30px;
+  margin: 25px auto;
+  text-align: center;
+  text-decoration: none;
+}
+.menu-close {
+  background-color: white;
+  color: darkred;
+}
+.menu-open {
+  transform: translateX(
+    0%
+  ); /* move the menu to the left back into the screen */
+  /*   opacity: 1;  */
+  display: block;
+}
+
 /* -----------NAV Customization--------------- */
 .Main-NAV{
     display: flex;
@@ -37,26 +87,105 @@
 /* -------------------Grid Customization------------------- */
 .Nutrition-Grid{
     display: grid;
+    grid-template-columns: 1fr;
+    background-color: rgb(253, 255, 245);
+}
+.Top-of-page{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.Top-of-page-title{
+    color:black;
+    background-color:rgb(191, 210, 226);
+    text-decoration: underline;
+    display: flex;
     justify-content: center;
     align-items: center;
+    height:40px;
+    font-size: 30px;
 }
-.Box-Title{
-    color:red;
-    background-color: black;
-}
+
+/* Calorie Count */
 .BOX1{
-    background-color: green;
+    background-color:rgb(191, 210, 226);
+    width:550px;
+    height:250px;
 
 }
+/* Carousel */
 .BOX2{
-   background-color: green; 
+   background-color:rgb(191, 210, 226);
+   width:550px;
+   height:250px;
 }
+/* Proteins */
 .BOX3{
-    background-color: green;
+    background-color:rgb(191, 210, 226);
+    height:250px;
+      
 }
+.Protein-Title{
+    color:black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:40px;
+    font-size: 30px;
+    text-decoration: underline;
+    background-color:yellow;
+    width:200px;
+    border: 5px solid;
+ 
+}
+/* Grains */
 .BOX4{
-background-color: green;
+background-color: rgb(191, 210, 226);
+ height:250px;
 }
+.Grains-Title{
+    color:black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:40px;
+    font-size: 30px;
+    text-decoration: underline;
+    background-color:yellow;
+    width:200px;
+    border: 5px solid;
+}
+/* Frutis and Veggies */
 .BOX5{
-    background-color: green;
+    background-color: rgb(191, 210, 226);
+     height:250px; 
+}
+.Fruits-Title{
+    color:black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:40px;
+    font-size: 25 px;
+    text-decoration: underline;
+    background-color:yellow;
+    width:200px;
+    border: 5px solid;
+}
+/* Dairies */
+.BOX6{
+  background-color: rgb(191, 210, 226);
+   height:250px;
+}
+.Dairy-Title{
+    color:black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:40px;
+    font-size: 30px;
+    text-decoration: underline;
+    background-color:yellow;
+    width:200px;
+    border: 5px solid;
 }
