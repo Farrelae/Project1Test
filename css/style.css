@@ -89,11 +89,13 @@
     display: grid;
     grid-template-columns: 1fr;
     background-color: rgb(253, 255, 245);
+    grid-gap:10px;
 }
 .Top-of-page{
   display: flex;
   justify-content: space-between;
   align-items: center;
+  
 }
 .Top-of-page-title{
     color:black;
@@ -111,6 +113,8 @@
     background-color:rgb(191, 210, 226);
     width:550px;
     height:250px;
+    border: 2px solid;
+   
 
 }
 /* Carousel */
@@ -118,11 +122,14 @@
    background-color:rgb(191, 210, 226);
    width:550px;
    height:250px;
+   border: 2px solid;
+   
 }
 /* Proteins */
 .BOX3{
     background-color:rgb(191, 210, 226);
     height:250px;
+    border: 3px solid;
       
 }
 .Protein-Title{
@@ -142,6 +149,7 @@
 .BOX4{
 background-color: rgb(191, 210, 226);
  height:250px;
+ border: 3px solid;
 }
 .Grains-Title{
     color:black;
@@ -158,7 +166,8 @@ background-color: rgb(191, 210, 226);
 /* Frutis and Veggies */
 .BOX5{
     background-color: rgb(191, 210, 226);
-     height:250px; 
+     height:250px;
+     border: 3px solid; 
 }
 .Fruits-Title{
     color:black;
@@ -176,6 +185,7 @@ background-color: rgb(191, 210, 226);
 .BOX6{
   background-color: rgb(191, 210, 226);
    height:250px;
+   border: 3px solid;
 }
 .Dairy-Title{
     color:black;
@@ -188,4 +198,49 @@ background-color: rgb(191, 210, 226);
     background-color:yellow;
     width:200px;
     border: 5px solid;
+}
+/* P tags */
+.Protein-Info{
+  
+}
+.P-facts{
+font-size: 20px;
+
+margin: 5px;
+
+}
+.G-facts{
+  font-size: 20px;
+  margin:10px;
+}
+.FV-facts{
+  font-size: 20px;
+  margin:10px;
+}
+.D-facts{
+font-size: 20px;
+margin:10px;
+}
+
+/* Footer */
+.Footer{
+  
+  height:60px;
+
+}
+
+/*Inputs tags*/
+.Input-Info{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 100px;
+}
+.Input-Button{
+  height:25px;
+}
+.Input-Button2{
+height:30px;
+color:darkred;
+border:2px solid;
 }
