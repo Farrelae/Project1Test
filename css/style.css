@@ -1,4 +1,5 @@
 /* ---------------Hamburger Menu ----------------------- */
+
 .Hr-Lines {
   width: 100%;
 }
@@ -57,6 +58,7 @@
     background-image: url("https://www.castlighthealth.com/wp-content/uploads/2018/03/HealthyFood.jpg");
     background-size: cover;
     background-position: center;
+    margin:10px;
       
 }
 .Title{
@@ -97,29 +99,31 @@
   align-items: center;
   
 }
-.Top-of-page-title{
+.Calorie-title{
     color:black;
-    background-color:rgb(191, 210, 226);
+    background-color:bisque;
     text-decoration: underline;
     display: flex;
     justify-content: center;
     align-items: center;
     height:40px;
-    font-size: 30px;
+    font-size: 45px;
+    width:450px;
+    margin:20px 400px;
 }
 
 /* Calorie Count */
 .BOX1{
-    background-color:rgb(191, 210, 226);
-    width:550px;
+    background-color:bisque;
     height:250px;
     border: 2px solid;
+    
    
 
 }
 /* Carousel */
 .BOX2{
-   background-color:rgb(191, 210, 226);
+   background-color:bisque;
    width:550px;
    height:250px;
    border: 2px solid;
@@ -127,85 +131,82 @@
 }
 /* Proteins */
 .BOX3{
-    background-color:rgb(191, 210, 226);
+    background-color:bisque;
     height:250px;
     border: 3px solid;
       
 }
 .Protein-Title{
-    color:black;
+    color:burlywood;
     display: flex;
     justify-content: center;
     align-items: center;
     height:40px;
     font-size: 30px;
     text-decoration: underline;
-    background-color:yellow;
+    background-color:darkolivegreen;
     width:200px;
     border: 5px solid;
  
 }
 /* Grains */
 .BOX4{
-background-color: rgb(191, 210, 226);
+background-color: bisque;
  height:250px;
  border: 3px solid;
 }
 .Grains-Title{
-    color:black;
+    color:burlywood;
     display: flex;
     justify-content: center;
     align-items: center;
     height:40px;
     font-size: 30px;
     text-decoration: underline;
-    background-color:yellow;
+    background-color:darkolivegreen;
     width:200px;
     border: 5px solid;
 }
 /* Frutis and Veggies */
 .BOX5{
-    background-color: rgb(191, 210, 226);
+    background-color:bisque;
      height:250px;
      border: 3px solid; 
 }
 .Fruits-Title{
-    color:black;
+    color:burlywood;
     display: flex;
     justify-content: center;
     align-items: center;
     height:40px;
     font-size: 25 px;
     text-decoration: underline;
-    background-color:yellow;
+    background-color:darkolivegreen;
     width:200px;
     border: 5px solid;
 }
 /* Dairies */
 .BOX6{
-  background-color: rgb(191, 210, 226);
+  background-color:bisque;
    height:250px;
    border: 3px solid;
 }
 .Dairy-Title{
-    color:black;
+    color:burlywood;
     display: flex;
     justify-content: center;
     align-items: center;
     height:40px;
     font-size: 30px;
     text-decoration: underline;
-    background-color:yellow;
+    background-color:darkolivegreen;
     width:200px;
     border: 5px solid;
 }
 /* P tags */
-.Protein-Info{
-  
-}
+
 .P-facts{
 font-size: 20px;
-
 margin: 5px;
 
 }
@@ -235,12 +236,15 @@ margin:10px;
   justify-content: center;
   align-items: center;
   padding: 100px;
+  margin:30px;
 }
 .Input-Button{
-  height:25px;
+  height:30px;
+  width:350px;
 }
 .Input-Button2{
-height:30px;
+height:35px;
+width: 100px;
 color:darkred;
 border:2px solid;
 }
